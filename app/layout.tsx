@@ -29,6 +29,11 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         {/* Google tag (gtag.js) */}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-R61Z6XPMC1"
+          strategy="afterInteractive"
+        />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
