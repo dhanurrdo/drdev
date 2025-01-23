@@ -26,7 +26,7 @@ export default function RootLayout({
         <script>
           {`
           window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
+          function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'G-R61Z6XPMC1');
